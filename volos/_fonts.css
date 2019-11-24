@@ -1,9 +1,0 @@
-@font-face {
-	font-family: "Myriad Pro Bold Condensed Italic";
-	src: url("fonts/myriad/MyriadPro-BoldCondIt.eot");
-	src: url("fonts/myriad/MyriadPro-BoldCondIt.eot?#iefix") format("embedded-opentype"),
-			 url("fonts/myriad/MyriadPro-BoldCondIt.woff") format("woff"),
-			 url("fonts/myriad/MyriadPro-BoldCondIt.ttf") format("truetype");
-	font-weight: bold;
-	font-style: italic;
-}
