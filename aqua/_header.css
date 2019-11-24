@@ -1,0 +1,40 @@
+body {
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+.HDR {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+div.HeaderLogo img{
+	display: table;
+	margin: 14px auto;
+}
+.cont p, .cont span{
+	font-size: 11px;
+	line-height: 2.1;
+}
+.cont > div{
+	color: #3ed8f5;
+	display: table;
+	margin: 36px auto 21px;
+	text-align: right;
+}
+.cont > div *{
+	display: table;
+	float: left;
+}
+.cont div img{
+	margin: 0 12px;
+}
+.cont p{
+	margin: -6px 0 0;
+}
+.mxWd {
+	max-width: 239px;
+}
