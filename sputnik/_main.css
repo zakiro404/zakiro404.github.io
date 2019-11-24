@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+@font-face {
+	font-family: "RobotoRegularr";
+	src: url("fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+html {
+    font-family: "RobotoRegularr";
+}
+
+body{
+	background-image: url(img/bgSky.jpg);
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 13px;
+    color: #616161;
+}
+
+img.logo {
+	max-width: 100%;
+	position: absolute;
+	z-index: 9999;
+}
+
+.glavPhotoMobile {
+	width: 100%;
+}
+
+.navUpLine {
+	padding-top: 94px;
+}
+
+header div.menu-nav{
+	display: inline-block;
+	min-height: 30px;
+	padding: 0 37px;
+	background: rgba(129,202,242,1);
+	background: -moz-linear-gradient(top, rgba(129,202,242,1) 0%, rgba(0,178,237,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(129,202,242,1)), color-stop(100%, rgba(0,178,237,1)));
+	background: -webkit-linear-gradient(top, rgba(129,202,242,1) 0%, rgba(0,178,237,1) 100%);
+	background: -o-linear-gradient(top, rgba(129,202,242,1) 0%, rgba(0,178,237,1) 100%);
+	background: -ms-linear-gradient(top, rgba(129,202,242,1) 0%, rgba(0,178,237,1) 100%);
+	background: linear-gradient(to bottom, rgba(129,202,242,1) 0%, rgba(0,178,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81caf2', endColorstr='#00b2ed', GradientType=0 );
+	border-bottom: solid 4px #fff;
+}
+
+header div.menu-nav > div{
+	margin-bottom: -2px;
+}
+
+header .menu-nav ul{
+	display: inline-block;
+}
+
+header .menu-nav li{
+	float: left;
+	list-style: none;
+}
+
+header .menu-nav li a{
+	color: white;
+	padding: 8.5px 8px;
+	text-decoration: none;
+}
+
+header .menu-nav li a:hover{
+	color: #f68c0f;
+	text-decoration: none;
+}
+
+.menu-nav-inner-div {
+	float: right;
+}
+
+.menu-nav * {
+	display: inline-block;
+}
+
+.menu-nav a.active, .menu-nav a:hover{
+	color: #f68c0f;
+	background-color: white;
+}
+
+.navLowLine {
+	background-color: rgba(0, 0, 0, 0.14);
+	color: #fff;
+}
+
+.navLowLine p{
+	padding: 7px;
+}
